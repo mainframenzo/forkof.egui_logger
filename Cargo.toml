@@ -20,7 +20,7 @@ regex = "1.11"
 puffin = { version = "0.19",  optional = true }
 
 [dev-dependencies]
-eframe = "0.31.1"
+eframe = { git = "https://github.com/emilk/egui.git" } # FIXME { version = "0.31.1" }
 multi_log = "0.1"
 env_logger = "0.11"
 puffin_egui = { version = "0.29.0" }
